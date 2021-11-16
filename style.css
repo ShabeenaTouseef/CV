@@ -1,0 +1,58 @@
+*{
+  
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    margin: 10px;
+
+}
+
+div.main{
+    font-size: 0.9rem;
+}
+
+.main h3{
+    font-weight: lighter;
+}
+.separator{
+    display:flex;
+    align-items: center;
+    width: auto;
+
+  }
+  
+  .separator .line{
+    height: 3px;
+    flex: 0.2;
+    background-color: #000;
+    }
+  
+  .separator h3{
+    padding: 0 0.9rem;
+    font-weight: normal;
+   
+  }
+  table,th,td{
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: auto;
+     
+      
+  }
+
+  .alignleft span{
+      
+      font-weight: normal;
+  }
+  .alignleft{
+      font-weight: bold;
+      float: left;
+  }
+  .alignright{
+      float: right;
+  }
+  .alignleft a{
+  font-style: italic;   
+  }
+table.tb{
+    border: none;
+    
+}
